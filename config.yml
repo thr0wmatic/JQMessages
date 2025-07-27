@@ -1,0 +1,73 @@
+# RUSSIAN CONFIG.YML
+# BY thr0wmatic
+
+# показывать ли сообщения о входе/выходе
+join-messages: true
+quit-messages: true
+
+# миры, в которых будут отображаться сообщения о входе/выходе
+enabled-worlds:
+  - world
+  - world_the_end
+  - world_nether
+
+# формат сообщений по умолчанию
+join-format: "&rИгрок {prefix}{player}&r "
+join-default-message: "зашёл на сервер!"
+
+leave-format: "&rИгрок {prefix}{player}&r "
+leave-default-message: "вышел с сервера!"
+
+# сообщения
+messages:
+  join-usage: |
+
+    &b&l| &fИспользование:
+    &b&l| &b/joinmessage set <сообщение> &8- &fУстановить сообщение при входе.
+    &b&l| &b/joinmessage clear &8- &fОчистить сообщение при входе.
+    &b&l| &b/joinmessage toggle &8- &fВключить или отключить сообщение при входе.
+
+  leave-usage: |
+
+    &b&l| &fИспользование:
+    &b&l| &b/leavemessage set <сообщение> &8- &fУстановить сообщение при выходе.
+    &b&l| &b/leavemessage clear &8- &fОчистить сообщение при выходе.
+    &b&l| &b/leavemessage toggle &8- &fВключить или отключить сообщение при выходе.
+
+  only_players:  "&c&l| &fЭту команду может использовать только игрок."
+  no-perms: '&c&l| &fУ вас нет прав для использования этой команды.'
+  player-not-found: '&c&l| &fИгрок не найден.'
+  updated-other: '&a&l| &fСообщение при входе для {player} &aобновлено&f. &fПример: {preview}'
+  updated: '&a&l| &fВаше сообщение при входе &aобновлено&f. &fПример: {preview}'
+  cleared-other: '&c&l| &fСообщение при входе для {player} было &cочищено&f.'
+  cleared: '&c&l| &fВаше сообщение при входе было &cочищено&f.'
+  reloaded: '&a&l| &fКонфигурация успешно &aперезагружена&f.'
+  message-disabled: '&c&l| &fВаше сообщение при входе отключено.'
+  message-enabled: '&a&l| &fВаше сообщение при входе включено.'
+  leave-updated: '&a&l| &fВаше сообщение при выходе &aобновлено&f. &fПример: {preview}'
+  leave-updated-other: '&a&l| &fСообщение при выходе для {player} &aобновлено&f. &fПример: {preview}'
+  leave-cleared: '&c&l| &fВаше сообщение при выходе было &cочищено&f.'
+  leave-cleared-other: '&c&l| &fСообщение при выходе для {player} было &cочищено&f.'
+  leave-enabled: '&a&l| &fВаше сообщение при выходе включено.'
+  leave-disabled: '&c&l| &fВаше сообщение при выходе отключено.'
+  set-join-usage: "&c&l| &f/joinmessage set [игрок] <сообщение>"
+  set-leave-usage: "&c&l| &f/leavemessage set [игрок] <сообщение>"
+
+# титры (title & subtitle)
+title:
+  enabled: true
+  title: "&cДобро пожаловать, &l{player}!"
+  subtitle: "&cМы рады снова тебя видеть!"
+
+  # длительности появления и исчезновения титров
+  fadeIn: 20
+  stay: 60
+  fadeout: 10
+
+# приветственное сообщение
+joinmessage:
+  enabled: true
+  message: |
+    /\_/\
+    ( o.o ) &bДобро пожаловать, &r{prefix} {player}!&r
+    > ^ <  &bот thr0wmatic&r
