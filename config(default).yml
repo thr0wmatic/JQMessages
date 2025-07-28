@@ -1,0 +1,73 @@
+# DEFAULT CONFIG.YML (ENGLISH)
+# BY thr0wmatic
+
+# show join/leave messages
+join-messages: true
+quit-messages: true
+
+# worlds where join/leave messages will be shown
+enabled-worlds:
+- world
+- world_the_end
+- world_nether
+
+# default join/leave messages format
+join-format: "&rPlayer {prefix}{player}&r "
+join-default-message: "joined the server!"
+
+leave-format: "&rPlayer {prefix}{player}&r "
+leave-default-message: "left the server!"
+
+# messages
+messages:
+join-usage: |
+
+&b&l| &fUsage:
+&b&l| &b/joinmessage set <message> &8- &fSet your join message.
+&b&l| &b/joinmessage clear &8- &fClear your join message.
+&b&l| &b/joinmessage toggle &8- &fEnable or disable your join message.
+
+leave-usage: |
+
+&b&l| &fUsage:
+&b&l| &b/leavemessage set <message> &8- &fSet your leave message.
+&b&l| &b/leavemessage clear &8- &fClear your leave message.
+&b&l| &b/leavemessage toggle &8- &fEnable or disable your leave message.
+
+only_players: "&c&l| &fOnly players can use this command."
+no-perms: '&c&l| &fYou don’t have permission to use this command.'
+player-not-found: '&c&l| &fPlayer not found.'
+updated-other: '&a&l| &fJoin message for {player} &aupdated&f. &fPreview: {preview}'
+updated: '&a&l| &fYour join message &aupdated&f. &fPreview: {preview}'
+cleared-other: '&c&l| &fJoin message for {player} has been &ccleared&f.'
+cleared: '&c&l| &fYour join message has been &ccleared&f.'
+reloaded: '&a&l| &fConfiguration successfully &areloaded&f.'
+message-disabled: '&c&l| &fYour join message has been disabled.'
+message-enabled: '&a&l| &fYour join message has been enabled.'
+leave-updated: '&a&l| &fYour leave message &aupdated&f. &fPreview: {preview}'
+leave-updated-other: '&a&l| &fLeave message for {player} &aupdated&f. &fPreview: {preview}'
+leave-cleared: '&c&l| &fYour leave message has been &ccleared&f.'
+leave-cleared-other: '&c&l| &fLeave message for {player} has been &ccleared&f.'
+leave-enabled: '&a&l| &fYour leave message has been enabled.'
+leave-disabled: '&c&l| &fYour leave message has been disabled.'
+set-join-usage: "&c&l| &f/joinmessage set [player] <message>"
+set-leave-usage: "&c&l| &f/leavemessage set [player] <message>"
+
+# title & subtitle
+title:
+enabled: true
+title: "&cWelcome &l{player}!"
+subtitle: "&cWe're so glad to see you again!"
+
+# fadein, stay, fadeout title & subtitle
+fadeIn: 20
+stay: 60
+fadeout: 10
+
+# welcome message
+joinmessage:
+enabled: true
+message: |
+/\_/\
+( o.o ) &bWelcome, &r{prefix} {player}!&r
+> ^ < &bby thr0wmatic&r
