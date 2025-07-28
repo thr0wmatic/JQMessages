@@ -1,6 +1,6 @@
 <img width="2000" height="460" alt="jqmessages" src="https://github.com/user-attachments/assets/27033106-1acb-49ee-8242-05924ed96ef5" />
 
-[Discord](https://discord.gg/uKJBjH7N) | [Modrinth](https://modrinth.com/project/jqmessages) | [Donate](https://www.donationalerts.com/r/thr0wmatic) | [SpigotMC](https://www.spigotmc.org/resources/jqmessages.127363/)
+[Discord](https://discord.gg/uKJBjH7N) | [Modrinth](https://modrinth.com/project/jqmessages) | [Donate](https://www.donationalerts.com/r/thr0wmatic) | [SpigotMC](https://www.spigotmc.org/resources/jqmessages.127363/) | [WIKI](https://github.com/thr0wmatic/JQMessages/wiki)
 
 **JQMessages** is a universal player join/leave notification system. This plugin allows the server to be notified when a player with the appropriate permission joins or leaves.
 
