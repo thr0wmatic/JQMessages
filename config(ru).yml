@@ -1,5 +1,5 @@
 # RUSSIAN YAML
-# RENAME THE FILE TO config.yml
+# RENAME THE FILE TO config.yml (ПЕРЕИМЕНУЙТЕ ФАЙЛ НА config.yml)
 
 # показывать ли сообщения о входе/выходе
 join-messages: true
