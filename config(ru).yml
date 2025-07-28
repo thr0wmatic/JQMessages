@@ -1,5 +1,5 @@
-# RUSSIAN CONFIG.YML
-# BY thr0wmatic
+# RUSSIAN YAML
+# RENAME THE FILE TO config.yml
 
 # показывать ли сообщения о входе/выходе
 join-messages: true
