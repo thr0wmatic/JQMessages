@@ -4,6 +4,11 @@
 
 **JQMessages** is a universal player join/leave notification system. This plugin allows the server to be notified when a player with the appropriate permission joins or leaves.
 
+**INFO:**
+
+- Java 17+
+- Minecraft 1.16+
+
 **FUNCTIONAL:**
 
 - custom join/leave notifications
